@@ -1,0 +1,63 @@
+@import "global";
+
+a:hover img
+{
+  opacity: 0.75;
+}
+
+.link-primary, .markdown a[href]:not([class])
+{
+  @include anchor($color-primary);
+}
+.link-primary--break-word
+{
+  word-break: break-all;
+}
+
+.btn-primary, .btn-alt, .btn-link
+{
+  cursor: pointer;
+  display: inline-block;
+  height: $height-button;
+  line-height: $height-button;
+  padding: 0 15px;
+  text-decoration: none;
+  border: 0 none;
+  text-align: center;
+  > .icon + .btn-label
+  {
+    margin-left: 8px;
+  }
+}
+.btn-link
+{
+  @include anchor($color-primary);
+}
+.btn-large
+{
+  height: $height-button-large;
+  line-height: $height-button-large;
+  font-size: 1.5em;
+  padding: 0 30px;
+}
+.btn-primary
+{
+  color: white;
+  @include linear-gradient(lighten($color-primary, 5), darken($color-primary, 5));
+  background-color: $color-primary;
+  border: 1px solid black;
+}
+.btn-alt
+{
+  @include linear-gradient(lighten($color-light-alt, 5), darken($color-light-alt, 5));
+  color: hsl(hue($color-primary), 85, 15);
+  border: 1px solid darken($color-primary, 10);
+}
+.btn-full-width
+{
+  width: 100%;
+}
+.no-label .btn-label
+{
+  @include offscreen();
+}

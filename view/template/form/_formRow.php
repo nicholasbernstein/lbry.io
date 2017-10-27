@@ -14,7 +14,9 @@
     <div class="form-error"><?php echo $error ?></div>
   <?php endif ?>
 
-  <?php echo View::renderTag('input', $attributes) ?>
+  <div class="form-field">
+    <?php echo View::renderTag('input', $attributes) ?>
+  </div>
 
   <?php if ($help ?? null): ?>
     <div class="meta"><?php echo $help ?></div>

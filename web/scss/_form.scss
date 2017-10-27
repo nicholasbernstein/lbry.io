@@ -1,7 +1,6 @@
 @import "global";
 
-$input-width: 300px;
-
+$width-input: 300px;
 
 input
 {
@@ -11,14 +10,13 @@ input[type="checkbox"]
 {
   -webkit-appearance: checkbox;
 }
-
 input[type="radio"]
 {
   -webkit-appearance: radio;
 }
 
-form {
-  margin-bottom: $line-height;
+.input-width {
+  width: $width-input;
 }
 
 form.form-inset
@@ -34,7 +32,6 @@ label[for], .label-radio
 {
   cursor: pointer;
 }
-
 
 .form-row {
   margin-bottom: $spacing-vertical;
@@ -73,19 +70,15 @@ input[type="email"],
 input[type="number"],
 input[type="search"],
 input[type="date"] {
-  display: inherit;
   padding: 5px;
-  margin: 5px 0;
   height: $line-height * 1.5;
-  width: $input-width;
-  vertical-align: middle;
+  width: $width-input;
   &.input-large
   {
-    height: $line-height * 2.5;
-    line-height: $line-height * 1.4;
+    height: $height-button-large;
+    line-height: $height-button-large;
     font-size: 1.4em;
-    width: 100%;
-    max-width: $max-text-width;
+    width: 450px;
   }
 }
 
@@ -136,15 +129,14 @@ input[type="submit"][disabled] {
   cursor: auto;
 }
 
-.mail-submit, .invite-submit
+.form--single-row
 {
   input
   {
-    margin-right: 10px;
-  }
-  input, .btn-primary
-  {
-    margin-bottom: $spacing-vertical / 2;
     vertical-align: bottom;
+    &:not([type="submit"])
+    {
+      margin-right: 10px;
+    }
   }
 }

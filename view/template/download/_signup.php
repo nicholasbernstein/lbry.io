@@ -8,10 +8,10 @@
       <?php echo __('email.address') ?>
     </label>
     <div class="form-input">
-      <input type="text" value="<?php echo htmlspecialchars($defaultEmail) ?>" name="email" class="required standard input-large" placeholder="someone@somewhere.com">
+      <input type="text" value="<?php echo htmlspecialchars($defaultEmail) ?>" name="email" class="required input-large" placeholder="someone@somewhere.com">
     </div>
   </div>
-  <div class="invite-submit">
+  <div>
     <input type="submit" value="Join List" name="subscribe" class="btn-alt btn-large">
   </div>
 </form>

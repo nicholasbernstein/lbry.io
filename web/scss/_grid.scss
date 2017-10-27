@@ -96,7 +96,7 @@ $gutter_fluid: 4;
     margin-left: 0 !important;
     display: block !important;
   }
-  .row-fluid, .tile-fluid {
+  .row-fluid, .tile-fluid, .column-fluid {
     [class*="span"]:not(:last-child)
     {
       margin-bottom: $spacing-vertical;

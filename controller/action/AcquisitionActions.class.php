@@ -39,4 +39,9 @@ class AcquisitionActions extends Actions
     }
     return [$template];
   }
+
+  public static function executeYouTubeSync()
+  {
+    return ['acquisition/youtubesync'];
+  }
 }

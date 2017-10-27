@@ -16,6 +16,11 @@
   {
     max-width: $max-text-width;
   }
+  &.content-text
+  {
+    max-width: 100%;
+    width: $max-text-width;
+  }
   &.content-readable
   {
     max-width: $max-text-width + 200;

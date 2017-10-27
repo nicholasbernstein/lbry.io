@@ -9,7 +9,7 @@
     <label for="wallet">Wallet Address</label>
     <div class="form-input">
       <input type="text" name="wallet_address" value="<?php echo htmlspecialchars($defaultWalletAddress) ?>"
-             class="required standard " placeholder="bYnFQUPTTDM1BYNCxgxKEav4FFQsrgDBoE">
+             class="required" placeholder="bYnFQUPTTDM1BYNCxgxKEav4FFQsrgDBoE">
     </div>
   </div>
   <div class="submit-row spacer-half">

@@ -182,10 +182,12 @@
       &:nth-child(even):not(.odd)
       {
         background-color: #f4f4f4;
+        color: $color-content-light;
       }
       &:nth-child(odd):not(.even)
       {
         background-color: white;
+        color: $color-content-light;
       }
     }
   }

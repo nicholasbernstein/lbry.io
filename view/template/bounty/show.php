@@ -28,7 +28,7 @@
       <?php if ($metadata['status'] !== 'complete'): ?>
         <h4>Claim This Bounty</h4>
         <div class="spacer1">
-          <a href="mailto:bounty@lbry.io?subject=<?php echo $metadata['title'] ?>" class="btn btn-alt">Claim Bounty</a>
+          <a href="mailto:bounty@lbry.io?subject=<?php echo $metadata['title'] ?>" class="btn-alt">Claim Bounty</a>
         </div>
         <h4>Bounty Questions?</h4>
         <div class="spacer1">
