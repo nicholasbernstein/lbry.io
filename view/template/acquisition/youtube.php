@@ -34,7 +34,7 @@
     <div class="content content-light" id="more-words">
       <h2>Control What You Earn</h2>
       <p>Receive payments and support from your fans directly into an account only you control.</p>
-      <h4>Live Tip Feed</h4>
+      <h4>What You Get</h4>
       <table class="post-content-table full-table">
         <thead>
           <tr>

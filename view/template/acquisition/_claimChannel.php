@@ -1,11 +1,10 @@
 <div class="content content-light">
   <form class="form--single-row">
     <div class="step step1">
-      <?php /*
       <div class="text-center">
-        <h2>What If YouTubers Ran YouTube?</h2>
+        <h2>What If This Were Persuasive Copy?</h2>
         <p>Claim your identity on the world's first user-controlled blah blah blah.</p>
-      </div> */ ?>
+      </div>
       <span class="input-group-large">@</span>
       <input type="text" class="input-large" placeholder="yourchannel" />
       <a href="javascript:;" class="btn-primary btn-large claim-step-button" data-step="2">Claim Now</a>
@@ -22,6 +21,12 @@
         'field'    => 'email',
         'label'    => __('Email'),
         'attributes' => ['placeholder' => 'you@youremail.com']
+      ]) ?>
+      <?php echo View::render('form/_formRow', [
+        'field'    => 'sync_now',
+        'label'    => __('Sync Now'),
+        'type' => 'checkbox',
+        'attributes' => ['placeholder' => 'you@youremail.com', 'checked' => 'checked']
       ]) ?>
       <div class="spacer-half">
         <a href="javascript:;" class="btn-primary claim-step-button" data-step="3">Send Welcome Wallet</a>
