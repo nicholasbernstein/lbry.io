@@ -29,4 +29,9 @@ class LBRY
   {
     return Curl::post(static::getApiUrl('/list/unsubscribe'), ['email' => $email], ['json_response' => true]);
   }
+
+  public static function getEmailData($email_token)
+  {
+    return Curl::post(static::getApiUrl('/user/email_status'), ['email_token' => $email_token], ['json_response' => true]);
+  }
 }

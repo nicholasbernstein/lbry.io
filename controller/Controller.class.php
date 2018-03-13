@@ -130,6 +130,8 @@ class Controller
 
     $router->post('/set-culture', 'i18nActions::setCulture');
 
+    $router->any('/email/edit/{token}', 'MailActions::executeEmailEdit');
+
     $permanentRedirects = [
       '/lbry-osx-latest.dmg'                => '/get',
       '/lbry-linux-latest.deb'              => '/get',
