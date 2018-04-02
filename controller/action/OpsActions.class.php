@@ -25,7 +25,8 @@ class OpsActions extends Actions
     }
 
     $payload = json_decode($payload, true);
-    if ($payload['ref'] === 'refs/heads/master')
+    $ref = IS_PRODUCTION ? 'refs/heads/master' : 'refs/heads/dev'; 
+    if ($payload['ref'] === $ref)
     {
       $sig = Request::getHttpHeader('X-Hub-Signature');
       if (!$sig)
