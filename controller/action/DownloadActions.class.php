@@ -111,7 +111,6 @@ class DownloadActions extends Actions
     public static function prepareDownloadButtonPartial(array $vars)
     {
         $osChoices = OS::getAll();
-
         $os = static::guessOS();
 
         if ($os && isset($osChoices[$os])) {

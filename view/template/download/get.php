@@ -26,6 +26,9 @@
           <?php endif ?>
           <img src="<?php echo $osScreenshotSrc ?>" />
         </div>
+      <?php elseif (in_array($os, OS::getOsesWithApplications())): ?>
+        <p>There was a problem fetching the latest release for <?php echo $osTitle ?>.</p>
+        <p>This problem should be fixed shortly. If it persists, please email <a href="mailto:hello@lbry.io" class="link-primary">hello@lbry.io</a>.</p>
       <?php else: ?>
         <p>{{download.unavailable}}</p>
         <?php echo View::render('mail/_subscribeForm', [

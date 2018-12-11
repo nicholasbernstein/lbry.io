@@ -38,7 +38,13 @@ class Github
         }
 
         if (!isset($release['assets'])) {
-            throw new Exception('Release array missing assets - possible GitHub auth failure, auth limit, and/or inspect releases array');
+            $e = new Exception('Release array missing assets - possible GitHub auth failure, auth limit, and/or inspect releases array');
+            if (IS_PRODUCTION) {
+                Slack::sendErrorIfProd($e);
+                return null;
+            } else {
+                throw $e;
+            }
         }
 
         foreach ($release['assets'] as $asset) {

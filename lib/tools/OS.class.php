@@ -24,6 +24,11 @@ class OS
     ];
     }
 
+    public static function getOsesWithApplications()
+    {
+        return [static::OS_WINDOWS, static::OS_LINUX, static::OS_OSX, static::OS_ANDROID];
+    }
+
     public static function getOsForExtension($ext)
     {
         switch ($ext) {
