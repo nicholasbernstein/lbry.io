@@ -8,7 +8,7 @@ While we try to work with reliable pool operators, LBRY Inc. does not officially
 
 However, some pools are in a partnership with the independent community initiative at [LBRY.Community](https://lbry.community). These pools fund development and expansion of the community by donating 10% of their LBC revenues. This is a great way to contribute directly to the community!
 
-- [LBRY Community Pool](http://lbrypool.com) <- Support the LBRY community with this pool!  
+- [LBRY Community Pool](http://lbrypool.com) <- Support the LBRY community with this pool!
 - [Luxor](https://mining.luxor.tech/lbry) <- Support the LBRY community with this pool!
 - [Pool.MN](https://pool.mn/lbry/index.php?page=gettingstarted)
 - [SuprNova](https://lbry.suprnova.cc/index.php?page=gettingstarted)

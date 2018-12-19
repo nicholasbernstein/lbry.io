@@ -18,7 +18,7 @@ When you sync your channel, you are also eligible to receive LBRY Credits in our
 
 *Please note: users won't see their channel/content in their LBRY app under `My LBRY - Publishes` until LBRY sends their wallets/claims over - a more automated process is still being worked out. However, the content will be accessible through the LBRY Desktop app / spee.ch*
 
-The sync process stores your wallet in a secure location, as you may not have the LBRY app installed already. If we send the wallet to you now, we won't be able to keep your YouTube channel in sync, and therefore, we recommend waiting until we have a better solution for sending this data to you. Please reach out to [help@lbry.io](mailto:help@lbry.io) if you have any questions about this process. 
+The sync process stores your wallet in a secure location, as you may not have the LBRY app installed already. If we send the wallet to you now, we won't be able to keep your YouTube channel in sync, and therefore, we recommend waiting until we have a better solution for sending this data to you. Please reach out to [help@lbry.io](mailto:help@lbry.io) if you have any questions about this process.
 
 **How to Receive Your LBRY Credits**
 
@@ -33,7 +33,4 @@ The sync process stores your wallet in a secure location, as you may not have th
 - Scroll to the "YouTube Reward" claim button
 - If you met a particular subscriber threshold, you should receive the appropriate amount of credits.
 
-
 If you're having any trouble with the sync process or receiving your credits, please contact [help@lbry.io](mailto:help@lbry.io).
-
-
